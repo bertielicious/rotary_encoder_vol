@@ -1,0 +1,299 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F690 ]
+[d frameptr 6 ]
+"464 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+[v i1_printf printf `(i  1 e 2 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+[v i1___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+[v i1___lwmod __lwmod `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"12 C:\Users\philip\MPLABXProjects\ioc_rotary_encoder.X\init_ports.c
+[v _init_ports init_ports `(v  1 e 1 0 ]
+"15 C:\Users\philip\MPLABXProjects\ioc_rotary_encoder.X\interrupt isr.c
+[v _isr isr `II(v  1 e 1 0 ]
+"11 C:\Users\philip\MPLABXProjects\ioc_rotary_encoder.X\ioc_enable.c
+[v _ioc_enable ioc_enable `(v  1 e 1 0 ]
+"22 C:\Users\philip\MPLABXProjects\ioc_rotary_encoder.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"14 C:\Users\philip\MPLABXProjects\ioc_rotary_encoder.X\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+[v i1_putch putch `(v  1 e 1 0 ]
+"12 C:\Users\philip\MPLABXProjects\ioc_rotary_encoder.X\set_usart.c
+[v _set_usart set_usart `(v  1 e 1 0 ]
+"15 C:\Users\philip\MPLABXProjects\ioc_rotary_encoder.X\transmit_character.c
+[v _transmit_character transmit_character `(v  1 e 1 0 ]
+[s S383 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+]
+"179 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic16f690.h
+[u S390 . 1 `S383 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES390  1 e 1 @5 ]
+[s S95 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"270
+[u S104 . 1 `S95 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES104  1 e 1 @7 ]
+[s S143 . 1 `uc 1 RABIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 RABIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"339
+[u S152 . 1 `S143 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES152  1 e 1 @11 ]
+[s S264 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"860
+[u S273 . 1 `S264 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES273  1 e 1 @24 ]
+"905
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+[s S164 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nRABPU 1 0 :1:7 
+]
+"1193
+[s S171 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+]
+[u S175 . 1 `S164 1 . 1 0 `S171 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES175  1 e 1 @129 ]
+[s S78 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+]
+"1258
+[u S85 . 1 `S78 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES85  1 e 1 @133 ]
+[s S221 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1307
+[u S227 . 1 `S221 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES227  1 e 1 @134 ]
+[s S57 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1349
+[u S66 . 1 `S57 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES66  1 e 1 @135 ]
+[s S236 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"2366
+[s S245 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SENB 1 0 :1:3 
+]
+[u S248 . 1 `S236 1 . 1 0 `S245 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES248  1 e 1 @152 ]
+"2416
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"2831
+[v _CM1CON0 CM1CON0 `VEuc  1 e 1 @281 ]
+"2896
+[v _CM2CON0 CM2CON0 `VEuc  1 e 1 @282 ]
+"3000
+[v _ANSEL ANSEL `VEuc  1 e 1 @286 ]
+"3062
+[v _ANSELH ANSELH `VEuc  1 e 1 @287 ]
+"3785
+[v _TRMT TRMT `VEb  1 e 0 @1217 ]
+"3805
+[v _TXIF TXIF `VEb  1 e 0 @100 ]
+"354 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+[v _dpowers dpowers `DC[5]ui  1 s 10 dpowers ]
+"97 C:\Users\philip\MPLABXProjects\ioc_rotary_encoder.X\config.h
+[v _count count `VEi  1 e 2 0 ]
+"98
+[v _previous_count previous_count `VEi  1 e 2 0 ]
+"12 C:\Users\philip\MPLABXProjects\ioc_rotary_encoder.X\debounce_a.c
+[v _a_de a_de `uc  1 e 1 0 ]
+"13
+[v _current_state current_state `uc  1 e 1 0 ]
+"13 C:\Users\philip\MPLABXProjects\ioc_rotary_encoder.X\debounce_b.c
+[v _b_de b_de `uc  1 e 1 0 ]
+"14
+[v _current_state_b current_state_b `uc  1 e 1 0 ]
+"22 C:\Users\philip\MPLABXProjects\ioc_rotary_encoder.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"26
+[v main@ton ton `[31]uc  1 a 31 0 ]
+"25
+[v main@F1554 F1554 `[31]uc  1 s 31 F1554 ]
+"39
+} 0
+"15 C:\Users\philip\MPLABXProjects\ioc_rotary_encoder.X\transmit_character.c
+[v _transmit_character transmit_character `(v  1 e 1 0 ]
+{
+[v transmit_character@character character `*.4uc  1 a 1 wreg ]
+[v transmit_character@character character `*.4uc  1 a 1 wreg ]
+[v transmit_character@character character `*.4uc  1 a 1 17 ]
+"31
+} 0
+"12 C:\Users\philip\MPLABXProjects\ioc_rotary_encoder.X\set_usart.c
+[v _set_usart set_usart `(v  1 e 1 0 ]
+{
+"27
+} 0
+"464 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+[v printf@f f `*.24DCuc  1 a 1 wreg ]
+"528
+[v printf@val val `ui  1 a 2 37 ]
+"499
+[v printf@c c `c  1 a 1 39 ]
+"506
+[v printf@prec prec `c  1 a 1 35 ]
+"508
+[v printf@flag flag `uc  1 a 1 34 ]
+"466
+[v printf@ap ap `[1]*.4v  1 a 1 33 ]
+"464
+[v printf@f f `*.24DCuc  1 a 1 wreg ]
+"533
+[v printf@f f `*.24DCuc  1 a 1 36 ]
+"1541
+} 0
+"14 C:\Users\philip\MPLABXProjects\ioc_rotary_encoder.X\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@byte byte `uc  1 a 1 wreg ]
+[v putch@byte byte `uc  1 a 1 wreg ]
+[v putch@byte byte `uc  1 a 1 16 ]
+"19
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwmod@counter counter `uc  1 a 1 29 ]
+"6
+[v ___lwmod@divisor divisor `ui  1 p 2 24 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 26 ]
+"26
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 21 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 23 ]
+"6
+[v ___lwdiv@divisor divisor `ui  1 p 2 16 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 18 ]
+"31
+} 0
+"11 C:\Users\philip\MPLABXProjects\ioc_rotary_encoder.X\ioc_enable.c
+[v _ioc_enable ioc_enable `(v  1 e 1 0 ]
+{
+"16
+} 0
+"12 C:\Users\philip\MPLABXProjects\ioc_rotary_encoder.X\init_ports.c
+[v _init_ports init_ports `(v  1 e 1 0 ]
+{
+"26
+} 0
+"15 C:\Users\philip\MPLABXProjects\ioc_rotary_encoder.X\interrupt isr.c
+[v _isr isr `II(v  1 e 1 0 ]
+{
+"46
+} 0
+"464 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\doprnt.c
+[v i1_printf printf `(i  1 e 2 0 ]
+{
+[v i1printf@f f `*.24DCuc  1 a 1 wreg ]
+[v i1printf@val printf `ui  1 a 2 9 ]
+[v i1printf@c printf `c  1 a 1 11 ]
+[v i1printf@prec printf `c  1 a 1 8 ]
+[v i1printf@flag printf `uc  1 a 1 7 ]
+[v i1printf@ap printf `[1]*.4v  1 a 1 6 ]
+[v i1printf@f f `*.24DCuc  1 a 1 wreg ]
+"533
+[v i1printf@f f `*.24DCuc  1 a 1 5 ]
+"1541
+} 0
+"14 C:\Users\philip\MPLABXProjects\ioc_rotary_encoder.X\putch.c
+[v i1_putch putch `(v  1 e 1 0 ]
+{
+[v i1putch@byte byte `uc  1 a 1 wreg ]
+[v i1putch@byte byte `uc  1 a 1 wreg ]
+[v i1putch@byte byte `uc  1 a 1 0 ]
+"19
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwmod.c
+[v i1___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+[v i1___lwmod@counter __lwmod `uc  1 a 1 13 ]
+[v i1___lwmod@divisor divisor `ui  1 p 2 8 ]
+[v i1___lwmod@dividend dividend `ui  1 p 2 10 ]
+"26
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwdiv.c
+[v i1___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+[v i1___lwdiv@quotient __lwdiv `ui  1 a 2 5 ]
+[v i1___lwdiv@counter __lwdiv `uc  1 a 1 7 ]
+[v i1___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v i1___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"31
+} 0

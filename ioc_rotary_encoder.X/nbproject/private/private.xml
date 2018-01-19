@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/philip/MPLABXProjects/ioc_rotary_encoder.X/config.h</file>
+            <file>file:/C:/Users/philip/MPLABXProjects/ioc_rotary_encoder.X/main.c</file>
+            <file>file:/C:/Users/philip/MPLABXProjects/ioc_rotary_encoder.X/init_ports.c</file>
+            <file>file:/C:/Users/philip/MPLABXProjects/ioc_rotary_encoder.X/init_ports.h</file>
+            <file>file:/C:/Users/philip/MPLABXProjects/ioc_rotary_encoder.X/ioc_enable.c</file>
+            <file>file:/C:/Users/philip/MPLABXProjects/ioc_rotary_encoder.X/interrupt%20isr.h</file>
+            <file>file:/C:/Users/philip/MPLABXProjects/ioc_rotary_encoder.X/interrupt%20isr.c</file>
+            <file>file:/C:/Users/philip/MPLABXProjects/ioc_rotary_encoder.X/ioc_enable.h</file>
+            <file>file:/C:/Users/philip/MPLABXProjects/ioc_rotary_encoder.X/putch.h</file>
+            <file>file:/C:/Users/philip/MPLABXProjects/ioc_rotary_encoder.X/set_usart.h</file>
+            <file>file:/C:/Users/philip/MPLABXProjects/ioc_rotary_encoder.X/transmit_character.h</file>
+            <file>file:/C:/Users/philip/MPLABXProjects/ioc_rotary_encoder.X/transmit_data.h</file>
+            <file>file:/C:/Users/philip/MPLABXProjects/ioc_rotary_encoder.X/putch.c</file>
+            <file>file:/C:/Users/philip/MPLABXProjects/ioc_rotary_encoder.X/debounce_a.c</file>
+            <file>file:/C:/Users/philip/MPLABXProjects/ioc_rotary_encoder.X/debounce_b.c</file>
+            <file>file:/C:/Users/philip/MPLABXProjects/ioc_rotary_encoder.X/debounce_a.h</file>
+            <file>file:/C:/Users/philip/MPLABXProjects/ioc_rotary_encoder.X/nbproject/Makefile-default.mk</file>
+            <file>file:/C:/Users/philip/MPLABXProjects/ioc_rotary_encoder.X/nbproject/Makefile-impl.mk</file>
+        </group>
+    </open-files>
+</project-private>
